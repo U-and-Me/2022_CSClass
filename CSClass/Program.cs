@@ -25,6 +25,23 @@ namespace CSClass
             Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextDouble() * 10);    // 0부터 10 사이의 수
+            
+            /*
+            List<int> list = new List<int>();
+            list.Add(1);
+            list.Add(2);
+            list.Add(3); 
+            list.Add(4);
+            */
+
+            List<int> list = new List<int>() {1, 2, 3, 4};
+            list.Remove(3); // 원하는 값 삭제
+            list.RemoveAt(0); // 원하는 인덱스의 값 삭제
+
+            foreach(var item in list)
+            {
+                Console.WriteLine("Count : " + list.Count + "\titem : " + item);
+            }
 
         }
     }
