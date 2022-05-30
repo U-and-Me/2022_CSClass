@@ -49,9 +49,10 @@ namespace CSClass
             Console.WriteLine(Math.Max(52, 273));
             Console.WriteLine(Math.Min(52, 273));
             Console.WriteLine(Math.Round(52.273));
-            Console.WriteLine(Math.Round(52.273, 2);
+            Console.WriteLine(Math.Round(52.273, 2));
             Console.WriteLine(Math.PI);
 
+            Product product = new Product();
         }
     }
 
