@@ -65,6 +65,57 @@ namespace CSClass
             Console.WriteLine(productA);
             Console.WriteLine(productB);
             Console.WriteLine(productC);
+
+            List<Student> students = new List<Student>() 
+            {
+                new Student() { name = "김유나", grade = 100 },
+                new Student() { name = "AAA", grade = 98 },
+                new Student() { name = "BBB", grade = 45 },
+                new Student() { name = "CCC", grade = 57 },
+                new Student() { name = "DDD", grade = 81 },
+                new Student() { name = "EEE", grade = 91 },
+                new Student() { name = "FFF", grade = 40 },
+                new Student() { name = "GGG", grade = 17 },
+                new Student() { name = "HHH", grade = 86 },
+                new Student() { name = "III", grade = 70 }
+            };
+
+            // 점수가 60 이상인 학생 제거 - 방법1
+            /*
+            foreach (var student in students)
+            {
+                if(student.grade > 60)
+                {
+                    students.Remove(student);
+                }
+            }
+            */
+
+            // 방법2
+            /*
+            for(int i = 0; i < students.Count; i++)
+            {
+                if (students[i].grade > 60)
+                {
+                    students.Remove(students[i]);
+                    i--;
+                }
+            }
+            */
+
+            // 방법3
+            for (int i = students.Count - 1; i >= 0; i--)
+            {
+                if (students[i].grade > 60)
+                {
+                    students.Remove(students[i]);
+                }
+            }
+
+            foreach (var student in students)
+            {
+                Console.WriteLine(student);
+            }
         }
     }
 
