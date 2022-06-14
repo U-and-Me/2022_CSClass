@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Box.cs" />
     <Compile Include="Car.cs" />
+    <Compile Include="Fibonacci.cs" />
     <Compile Include="MyMath.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />

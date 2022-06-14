@@ -152,6 +152,14 @@ namespace CSClass
 
             Box box2 = new Box(-10, -20);
             Console.WriteLine(box.Area);
+
+            // 피보나치
+            Console.WriteLine(Fibonacci.Get(1));
+            Console.WriteLine(Fibonacci.Get(2));
+            Console.WriteLine(Fibonacci.Get(10));
+            Console.WriteLine(Fibonacci.Get(50));
+            Console.WriteLine(Fibonacci.Get(100));
+
         }
     }
 
