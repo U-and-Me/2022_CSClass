@@ -160,6 +160,10 @@ namespace CSClass
             Console.WriteLine(Fibonacci.Get(50));
             Console.WriteLine(Fibonacci.Get(100));
 
+            // 23. 상속과 다형성
+            Cat c = new Cat();
+            Dog d = new Dog();
+            
         }
     }
 
