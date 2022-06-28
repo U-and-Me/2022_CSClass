@@ -47,9 +47,11 @@
     <Compile Include="Box.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Cat.cs" />
+    <Compile Include="Child.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="MyMath.cs" />
+    <Compile Include="Parent.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

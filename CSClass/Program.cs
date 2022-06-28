@@ -182,6 +182,10 @@ namespace CSClass
                 var cat = item as Cat;
                 if(cat != null) cat.Meow();
             }
+
+
+            Child childA = new Child();
+            Child childB = new Child("string");
         }
     }
 
