@@ -11,7 +11,7 @@ namespace CSClass
             Age = 0;
         }
 
-        public void Eat()
+        public virtual void Eat()
         {
             Console.WriteLine("냠냠");
         }
